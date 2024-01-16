@@ -2,7 +2,7 @@ ext {
     android = [
             compileSdk     : 32,
             applicationId  : "com.mozhimen.crashk_native",
-            minSdk         : 21,
+            minSdk         : 19,
             targetSdk      : 32,
             versionCode    : 1,
             versionName    : "1.0.0",
