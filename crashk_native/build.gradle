@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    compileSdk rootProject.android.compileSdk
+    compileSdk 33
 
     defaultConfig {
-        minSdk rootProject.android.minSdk
-        targetSdk rootProject.android.targetSdk
+        minSdk 19
+        targetSdk 33
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -20,7 +20,7 @@ android {
             }
         }
         ndk {
-            abiFilters "armeabi-v7a", "arm64-v8a", "x86"
+            abiFilters "armeabi-v7a", "arm64-v8a", "x86", "x86_64"
             //指定支持的abi版本，也即是编译之后生成的so文件的类型
         }
     }

@@ -4,14 +4,14 @@ plugins {
 }
 
 android {
-    compileSdk rootProject.android.compileSdk
+    compileSdk 33
 
     defaultConfig {
-        applicationId rootProject.android.applicationId
-        minSdk rootProject.android.minSdk
-        targetSdk rootProject.android.targetSdk
-        versionCode rootProject.android.versionCode
-        versionName rootProject.android.versionName
+        applicationId 'com.mozhimen.crashk_native.test'
+        minSdk 19
+        targetSdk 33
+        versionCode 1
+        versionName "1.0.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

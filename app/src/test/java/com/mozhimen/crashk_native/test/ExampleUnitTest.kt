@@ -1,4 +1,4 @@
-package com.mozhimen.crashk_native
+package com.mozhimen.crashk_native.test
 
 import org.junit.Test
 
